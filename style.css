@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+}
+
+.line {
+    height: 5px;
+    width: 30%;
+    background-color: darkslategray;
+    margin-left: 400px;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    transition: transform .5s;
+    margin: 20px;
+}
+
+img:hover {
+transform: scale(0.9);
+}
+
+iframe {
+    margin: 20px;
+}
+
+#games {
+    background: linear-gradient(red, orange 100%)
+}
+
+#apps {
+    background-color: linear-gradient(orange, yellow 100%)
+}
+
+#awork {
+    background-color: linear-gradient(yellow,green 100%)
+}
+#cbots {
+    background-color: linear-gradient(green,blue 100%)
+}
